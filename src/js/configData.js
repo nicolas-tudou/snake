@@ -14,7 +14,6 @@ function Square(x, y, width, height, dom) {
     this.viewContent = dom || document.createElement('div');
 }
 Square.prototype.touch = function() {
-    console.log('tauch');
 }
 
 var Food = jsUtil.extends(Square);

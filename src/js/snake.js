@@ -25,7 +25,6 @@ snake.init = function (ground) {
     this.body2 = SquareFactory.create('SnakeBody', 1, 1, 'blue');
     ground.FloorTable.remove(1 + ':' + 1)
 
-    console.log(ground.FloorTable)
     this.head = head;
     this.head.next = this.body1;
     this.head.last = null;
